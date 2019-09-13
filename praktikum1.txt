@@ -1,0 +1,48 @@
+	class lingkaran(object):
+		def __init__(self ,r):
+			self.r =r
+			self.phi =3.14
+		def hitungluas(self):
+			return self.phi *self.r * self.r
+		def hitungkeliling(self):
+			return 2 *self.phi * self.r
+			
+	def main():
+		lingkaran = lingkaran(4)
+		
+		print("luas lingkaran")
+		print("phi\ t: ", lingkaran.phi)
+		print("r\t: ", lingkaran.r)
+		print("luas\r = ", lingkaran.hitungluas())
+		
+		lingkaran2 =lingkaran(7)
+		
+		print("\nkeliling lingkaran"
+		print("phi\t : ", lingkaran2.phi)
+		print("r\t : ", lingkaran2.r)
+		print("luas\t =", lingkaran2.hitungkeliling())
+	if __name__=="__main__":
+		main()
+	class persegi(object):
+		def __init__(self,s):
+			self.s = s
+		def hitungluas(self):
+			self.s * self.s
+		def keliling(self):
+			return 4 * self.s
+		
+	def main():
+		persegi =persegi(9)
+		
+		print("\nluas persegi ")
+		print("sisi\t: ", persegi.s)
+		print("luas\t= ", persegi.hitungluas())
+		
+		persegi2 = persegi(6)
+		
+		print("\nkeliling persegi")
+		print("sisi\t :", persegi.s)
+		print("luas\t =", persegi.hitungkeliling())
+    
+    if __name__=="__main__":
+    main()
